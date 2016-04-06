@@ -38,7 +38,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eee;
+  color: #ae97b5;
   font-family: "Montserrat", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
@@ -75,6 +75,7 @@ body {
 .reveal iframe {
   max-width: 95%;
   max-height: 95%; }
+
 
 .reveal strong,
 .reveal b {
@@ -198,6 +199,13 @@ body {
 .reveal small * {
   vertical-align: top; }
 
+.reveal figure {
+    page-break-inside: avoid;
+    display: block;
+}
+.reveal figcaption {
+  font-size: 50%;
+}
 /*********************************************
  * LINKS
  *********************************************/
@@ -239,6 +247,8 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-color: #e7ad52;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+
 
 /*********************************************
  * NAVIGATION CONTROLS
