@@ -45,7 +45,8 @@
 					<h2>Tzviya Siegman, Wiley</h2>
 					<p>WWW2016 - Montreal</p>
 					<footer>
-						<small>Powered by <a href="http://lab.hakim.se/reveal-js">Reveal.js</a></small>
+                        <img style="float: right; border: none; max-width: 25%; max-height: 15%;"  src="figures/Wiley_Wordmark_white.png" alt="Wiley logo"/>
+						<small style="float: left; right-margin: 5em;">Powered by <a href="http://lab.hakim.se/reveal-js">Reveal.js</a></small>
 					</footer>
 				</section>
                 
@@ -61,7 +62,7 @@
 
 				<section>
                 <h2>Even retractions and errata are discrete entitities</h2>
-                    <figure class="stretch"><img src="LancetRetracted.JPG" alt="Retracted article from The Lancet with the title RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children"/></figure>
+                    <figure class="stretch"><img src="figures/LancetRetracted.JPG" alt="Retracted article from The Lancet with the title RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children"/></figure>
                     <aside class="notes">
 						And, we know how well retractions have been managed. I'm not saying we could have reigned in the anti-vaxxers, but who knows?
 					</aside>
@@ -70,12 +71,22 @@
                 <section><h2>Machines are readers too</h2>
                 <ul>
                     <li>We are beginning to recognize the value of machines reading our research as well</li>
-                <li>Using tools of the OWP can help researchers and even speed up research during times of crisis</li>
+                <li>Using tools of the open web platform can help researchers and even speed up research during times of crisis</li>
                     </ul>
-                    <figure class="stretch"><img src="GoogleZika.JPG" alt="Google blog post from March 3, 2016 with the title
+                    <figure class="stretch"><img src="figures/GoogleZika.JPG" alt="Google blog post from March 3, 2016 with the title
 Providing support to combat Zika in Brazil and beyond "/><figcaption>Finding solutions to the rapid spread of the Zika virus can be aided by those with experience analyzing large sets of data. Source: <a href="https://googleblog.blogspot.com/2016/03/providing-support-to-combat-zika-in.html">Google Blog</a></figcaption></figure>
                 </section>
                 
+                <section>
+                <h2>Publishing may be a little behind</h2>
+                    <figure class="stretch"><img src="figures/TheWileyFamily.jpg" alt="Oil portrait of 18th century family standing outside near windmills" /><figcaption>1771 Portrait of The Wiley Family by William Williams, Smithsonian American Art Museum</figcaption></figure>
+                </section>
+                
+                <section>
+                <h2>Smithsonian Linked Open Data</h2>
+                    <p><a href="http://edan.si.edu/saam/id/object/2006.12.2">http://edan.si.edu/saam/id/object/2006.12.2</a></p>
+                    <figure class="stretch"><img src="figures/SmithsonianLOD.jpg" alt="The Smithsonian Linked Open Data page for the Wiley painting" /></figure>
+                </section>
                 
                 <section>
 					<h2>History Lesson</h2>
@@ -86,6 +97,7 @@ Providing support to combat Zika in Brazil and beyond "/><figcaption>Finding sol
 				<li>Earliest online journals were HTML</li>
 				<li>The appeal and efficiency of desktop publishing was too good to pass up</li> 
 						</ul>
+                    <aside class="notes">The HTML is a second-thought, a gateway drug for the PDF. 90% revenue comes from digital, but we still pay for typesetter. </aside>
 				</section>
 
                  <section>
@@ -95,7 +107,7 @@ Providing support to combat Zika in Brazil and beyond "/><figcaption>Finding sol
 					<li>Citations are usually page-based</li>
 				  <li>Even when given the choice of HTML, many researchers choose PDF</li> 
 						</ul>
-                     <aside class="notes">Pages are not bad. They provide easy-to-digest chunks. Problems arise when the page or the format becomes more important than the content.</aside>
+                     <aside class="notes">Pages are not bad, but they have become the unit of currency. They are how we review, revise, and cite. They provide easy-to-digest chunks. Problems arise when the page or the format becomes more important than the content.  Yet, we still often create the paginated content first and digital second. HTML is a second-class citizen.</aside>
 				</section>
                 
                 <section>
@@ -103,9 +115,9 @@ Providing support to combat Zika in Brazil and beyond "/><figcaption>Finding sol
 					<ul>
 					<li>Reap the benefits of pages, or CSS "fragmentainers"</li>
 					<li>Don't be contained by the frozen page of desktop publishing</li>
-				<li>Publications can be living documents supported by the full stack of web technology</li>
+				<li>Publications can be living documents, with typography, supported by the full stack of web technology</li>
 		</ul>
-				<aside class="notes">We are at a magnigicent crossroads now. Ivan will speak more about the opportunities we have to influence the Web. </aside>
+				<aside class="notes">We are at a magnificent crossroads now. Ivan will speak more about the opportunities we have to influence the Web. </aside>
                 </section>
 				            
                 <section>
@@ -138,7 +150,7 @@ Deep Versioning and Deep Re-Use" </cite>
 					</ul>
 					<a href="https://github.com/hakimel/reveal.js#speaker-notes"></a>
 					<aside class="notes">
-						hyperdata is data objects linked to other data objects, enabling web of data.
+						hyperdata is data objects linked to other data objects, enabling web of data that branches and responds.
 					</aside>
 				</section>
 				
@@ -162,15 +174,15 @@ Deep Versioning and Deep Re-Use" </cite>
                     <li>Associated resources can relay information from one location to another and effect behavior </li>
                          </ul>
                 </li></ul>
-                  <p class="fragment">But, it's not always easy or neat.</p>
+                  <p>But, it's not always easy or neat.</p>
                   </section>
                 
 								
                 <section>
 					<h2>Meaningful Metadata</h2>
 					<p>Not too long ago (and often still) author information and titles were just meaningless blobs of text</p>
-					<p class="fragment"><em>Linked Data to the rescue!</em></p>
-                    <figure class="stretch"> <img src="AuthorRDFa.JPG" alt="linked data diagram showing author information for a journal article">
+					<p><em>Linked Data to the rescue!</em></p>
+                    <figure class="stretch"> <img src="figures/AuthorRDFa.JPG" alt="linked data diagram showing author information for a journal article">
                     <figcaption>Linked Data diagram for authors and affiliations of <i>Brain and Behavior</i> An update on immunopathogenesis, diagnosis, and treatment of multiple sclerosis, DOI: 10.1002/brb3.362, courtesy of <a href="http://www.standardanalytics.io/">Standard Analytics</a></figcaption>
                     </figure>
 				</section>
@@ -178,7 +190,7 @@ Deep Versioning and Deep Re-Use" </cite>
                 <section>
                     <header>
 					<h2>Networked Publications</h2>
-                        <p>Our articles are talking to each other.</p>
+                        <p>Our articles are talking to each other</p>
                         </header>
 					<pre>
                     <code>
@@ -223,14 +235,14 @@ Deep Versioning and Deep Re-Use" </cite>
                        <li>Users can subcribe to a topic instead of a specific journal</li>
                        <li>See <a href="http://aasldpubs.onlinelibrary.wiley.com/">American Association for the Study of Liver Disease hub</a></li>
                        </ul>
-                    <figure class="stretch"> <img src="aasld.jpg" alt="landing page of aasld.org hub on wiley online library, showing search options by topic"/></figure>
+                    <figure class="stretch"> <img src="figures/aasld.jpg" alt="landing page of aasld.org hub on wiley online library, showing search options by topic"/></figure>
                 </section>
                
                 
                 <section>
                 <h2>Publishing Data</h2>
                     <ul>
-                    <li>In the past, data was, by definition, historical</li>
+                    <li>In the past, published data was, by definition, historical</li>
                         <li>Tools like IPython, Jupyter, and GitHub allow researchers to publish and never stop!</li>
                         <li>Web Annotations, GitHub Pull Requests allow anyone to comment</li>
                         <li>Living publications allow for living data</li>
@@ -247,14 +259,30 @@ Deep Versioning and Deep Re-Use" </cite>
                         <li>Puts all Python code in an open Github Repository </li>
                         <li>The author provides a Jupyter Notebook to host the code on the <a href = "http://pqp.io">Quant Platform</a> for a standardized execution environment </li></ul>
                        
-                    <figure class="stretch"><img src="DerivativesGH.JPG" alt="Screen capture of GitHub Repository Pyhton code for Derivatives Analytics with Python "/></figure>
+                    <figure class="stretch"><img src="figures/DerivativesGH.JPG" alt="Screen capture of GitHub Repository Pyhton code for Derivatives Analytics with Python "/></figure>
                  <aside class="notes">This allows easily reproducible and updateable research: every result, table, plot, etc. presented in the book can be reproduced by the reader and can be updated given new or different data as input.</aside>
                         
                 </section>
                 <section>
-                <h2>Chemistry Samples</h2>
+                <h2>Lessons from the Past</h2>
+                    <ul>
+                    <li>In 2012 Wiley launched a site called Functional Chemistry</li>
+                    <li>Instead of publishing raster images of compounds that originated in ChemDraw, we extracted  InChIKeys from the ChemDraw files</li>
+                    <li>This enabled our machines to identifying existing and novel compounds</li>
+                    <li>Users could view and the spectra associated with compounds</li>
+                    </ul>    
+                    <aside class="notes">IUPAC International Chemical Identifier Keys are hashed identifiers. The InChI key was developed to make the full compounds more easily searchable on the Web.</aside>
                 </section>
                 
+                <section>
+                <figure class="stretch"><img src="figures/FunChem1.jpg" alt="Wiley Functional Chemistry site highlighting the relationship between schemes, labels, and text."/><figcaption>Functional Chemsitry offered users the option of navigation by scheme or label before the Chemical Abstract Service touched the files.</figcaption></figure>
+                    <aside class="notes">CAS takes 6 months to process schemes and compounds. That's a really long time in pharmaceuticals. KillCAS is a movement that i learned of recently.</aside>
+                </section>
+                
+                <section>
+                <figure class="stretch"><img src="figures/FunChem3.JPG" alt="Wiley Functional Chemistry site showing specific reagents highlited" /><figcaption>Wiley tagged all the compounds in text, but at the time, the purpose was highlighting.</figcaption></figure>
+                </section>
+                <aside class="notes">We had very valuable categorizations and taggging, but we did not use LOD. We didn't separate the data from the content. We are applying these lessons to the materials we create today.</aside>
                 <section>
                 <h2>Data Lives</h2>
                     <ul>
@@ -263,7 +291,14 @@ Deep Versioning and Deep Re-Use" </cite>
                         <li>What, then is the "publication of record"?</li>
                     <li>Can this be managed by versioning?</li>   
                     </ul>
+                    </section>
+                
+                <section>
+                <h2>Use Case: Cochrane Library Systematic Reviews</h2>
+                    <p>Cochrane Reviews are systematic reviews of primary research in human health care and health policy, and are internationally recognised as the highest standard in evidence-based health care. They may either investigate the effects of interventions for prevention, treatment, and rehabilitation, or alternatively may assess the accuracy of a diagnostic test for a given condition in a specific patient group and setting. <strong style="color: #9eb597;">A unique feature of Cochrane Reviews is that they are living documents in that they are updated with new evidence that emerges. They were conceived as electronic publications from the outset, and designed to take advantage of features unique to electronic publishing.</strong></p>
+                    <aside class="notes">The only reasone these are published in a tradtional journals setting is impact factor, which drives revenue</aside>
                 </section>
+                
                 
                 <section>
                 <h2>There is still work to do</h2>
